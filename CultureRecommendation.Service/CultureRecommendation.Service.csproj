@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CultureRecommendation.Constants\CultureRecommendation.Constants.csproj" />
+    <ProjectReference Include="..\CultureRecommendation.Data\CultureRecommendation.Data.csproj" />
+    <ProjectReference Include="..\CultureRecommendation.Domain\CultureRecommendation.Domain.csproj" />
+    <ProjectReference Include="..\CultureRecommendation.Dto\CultureRecommendation.Dto.csproj" />
+    <ProjectReference Include="..\CultureRecommendation.Infraestructure\CultureRecommendation.Infraestructure.csproj" />
+  </ItemGroup>
+
+</Project>
